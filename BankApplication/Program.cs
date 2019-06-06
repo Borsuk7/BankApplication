@@ -54,7 +54,7 @@ namespace BankApplication
                 }
                 catch (Exception ex)
                 {
-                    // выводим сообщение об ошибке красным цветом
+                    //Display error message in red
                     color = Console.ForegroundColor;
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine (ex.Message);
